@@ -1,19 +1,22 @@
 {
-  "name": "react-monorepo",
-  "version": "0.0.1",
+  "name": "ReactNativeMonorepo",
+  "version": "1.0.0",
   "private": true,
   "workspaces": {
     "packages": [
       "packages/*"
+    ],
+    "nohoist": [
+      "**/react-native",
+      "**/react-native/**",
+      "**/react-native-*"
     ]
   },
   "scripts": {
     "android": "yarn workspace mobile android",
     "ios": "yarn workspace mobile ios",
     "web": "yarn workspace web start",
-    "studio": "yarn workspace mobile studio",
-    "test": "yarn workspaces run test",
-    "xcode": "yarn workspace mobile xcode",
+    "test": "yarn workspace run test",
     "lint": "eslint .",
     "format": "prettier --write ."
   }
