@@ -1,8 +1,8 @@
 import { AppRegistry } from "react-native";
 
-import App from "components/src/App";
+import App from "./App";
 
-AppRegistry.registerComponent("myprojectname", () => App);
-AppRegistry.runApplication("myprojectname", {
+AppRegistry.registerComponent("react-monorepo", () => App);
+AppRegistry.runApplication("react-monorepo", {
   rootTag: document.getElementById("root"),
 });

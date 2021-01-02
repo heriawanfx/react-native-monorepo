@@ -7,20 +7,14 @@
     "react": "^17.0.1",
     "react-art": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-native-web": "^0.14.10",
+    "react-native-web": "^0.14.8",
     "react-scripts": "4.0.1"
   },
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
-    "eject": "react-app-rewired eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
@@ -33,9 +27,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "babel-plugin-react-native-web": "^0.14.10",
-    "react-app-rewired": "^2.1.8"
   }
 }

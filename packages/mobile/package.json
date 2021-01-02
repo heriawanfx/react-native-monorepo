@@ -10,7 +10,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "react": "16.13.1",
+    "react": "17.0.1",
     "react-native": "0.63.4",
     "components": "0.0.1"
   },
