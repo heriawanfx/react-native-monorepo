@@ -24,6 +24,9 @@ yarn ios
 Example to import shared component or other element from @main/common
 ```
 import WelcomeText from "@main/common/src/WelcomeText";
-if you use statement like this
+```
+if you use statement like this:
+```
 import WelcomeText from "../../common/src/WelcomeText";
+```
 it will throw webpack scooped error
